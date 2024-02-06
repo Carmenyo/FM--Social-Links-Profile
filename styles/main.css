@@ -64,4 +64,9 @@ body {
   color: hsl(0, 0%, 100%);
   border: none;
   letter-spacing: 1px;
+  cursor: pointer;
+}
+.card__social-links-button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
 }/*# sourceMappingURL=main.css.map */

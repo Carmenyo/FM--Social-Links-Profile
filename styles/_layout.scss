@@ -60,7 +60,13 @@ body{
     color: $White;
     border: none;
     letter-spacing: 1px;
+    cursor: pointer;
+}
 
+// ACTIVE STATES
+&__social-links-button:hover{
+background-color: $Green;
+color: black;
 }
 
 }
