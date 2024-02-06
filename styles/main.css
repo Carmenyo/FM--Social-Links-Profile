@@ -16,12 +16,14 @@ body {
 
 .card {
   width: 384px;
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(0, 0%, 12%);
   font-family: "Inter", sans-serif;
+  border-radius: 12px;
+  padding-bottom: 2rem;
 }
 .card__author-info {
   text-align: center;
-  padding: 2.5rem;
+  padding: 2.5rem 2.5rem 1.5rem 2.5rem;
 }
 .card__author-avatar {
   border-radius: 15rem;
@@ -45,4 +47,21 @@ body {
   font-weight: 100;
   margin-top: 30px;
   word-spacing: 5px;
+}
+.card__social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.card__social-links-button {
+  width: 304px;
+  height: 45px;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=main.css.map */

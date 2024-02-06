@@ -10,11 +10,14 @@ body{
 
 .card{
     width: 384px;
-    background-color:$Grey;
+    background-color:$DarkGrey;
     font-family: $FontFamily;
+    border-radius: 12px;
+    padding-bottom: 2rem;
+
     &__author-info{
      text-align: center; 
-     padding: 2.5rem;
+     padding: 2.5rem 2.5rem 1.5rem 2.5rem;
     }
 
 &__author-avatar{
@@ -39,6 +42,25 @@ body{
     font-weight:100;
     margin-top: 30px;
     word-spacing: 5px;
+}
+&__social-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+&__social-links-button{
+    width: 304px ;
+    height: 45px;
+    margin-bottom: 1rem ;
+    border-radius: 8px;
+    background-color: $Grey;
+    color: $White;
+    border: none;
+    letter-spacing: 1px;
+
 }
 
 }
