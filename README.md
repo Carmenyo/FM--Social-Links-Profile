@@ -1,7 +1,7 @@
 # Social Links Profile
 
 A responsive social links profile project built using HTML5 and SASS. This project allows users to showcase links to their profiles on various social media platforms through an aesthetically pleasing and user-friendly card. The design ensures seamless functionality on both mobile and desktop devices.
-![Social Links Profile Project Preview Desktop](./assets/images/Captura%20%20desktop.png)
+![Social Links Profile Project Preview Desktop](./assets/images/mockup.png)
 
 ## Features
 - Responsive design catering to both mobile and desktop platforms.
